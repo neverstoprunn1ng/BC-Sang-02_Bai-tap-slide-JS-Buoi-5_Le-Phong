@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính tiền cáp</title>
+</head>
+<body>
+    
+
+
+
+<input id="maKhachHang" type="text" placeholder="Mã khách hàng">
+<br><br>
+<p>Nhóm khách hàng:</p>
+<select onchange="disableSoKetNoiInput()" id="loaiKhachHang">
+    <option value=""></option>
+    <option  value="nhaDan">Nhà dân</option>
+    <option  value="doanhNghiep">Doanh nghiệp</option>
+</select>
+<br><br>
+<input id="soKetNoi" type="text" placeholder="Số kết nối">
+<br><br>
+<input id="soKenh" type="text" placeholder="Số kênh cao cấp">
+<br><br>
+<button id="tinhTienBtn">Tính tiền cáp</button>
+<br><br>
+<p id="ketQua"></p>
+
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
